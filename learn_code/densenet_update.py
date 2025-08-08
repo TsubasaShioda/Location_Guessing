@@ -17,7 +17,7 @@ except ImportError:
 
 # データセットのルートディレクトリ
 # こちらはご自身の環境に合わせて修正してください
-data_dir = '/Users/e235727/info3dm/group_work/split_dataset'
+data_dir = './split_dataset'
 train_dir = os.path.join(data_dir, 'train')
 test_dir = os.path.join(data_dir, 'test')
 

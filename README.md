@@ -23,3 +23,5 @@
    `learn_code/densenet.py` を適用して実験
 4. 重み付き学習の実験  
    最初の実験から変更を加え、`learn_code/densenet_balanced.py` を使用
+5. 1,2で出した適切なパラメーターを元に、学習モデルに適用し、高精度な結果を追求
+    `learn_code/densenet.py`と`learn_code/densenet_balanced.py` の各パラメーター入力欄に1,2で出された適切なパラメーターの値を元に、それぞれ、調整を行い、高精度な結果になるように実験を行った。

@@ -21,7 +21,7 @@ device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 print(f"計算に {device} を使用します。")
 
 # データセットのルートディレクトリ
-data_dir = '/mnt/split_dataset'
+data_dir = './split_dataset'
 train_dir = os.path.join(data_dir, 'train')
 test_dir = os.path.join(data_dir, 'test')
 

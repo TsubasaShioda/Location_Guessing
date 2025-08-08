@@ -21,7 +21,7 @@ print(f"計算に {device} を使用します。")
 
 # データセットのルートディレクトリ
 # このパスはあなたのローカル環境に依存します。
-data_dir = '/mnt/split_dataset'
+data_dir = './split_dataset'
 train_dir = os.path.join(data_dir, 'train')
 test_dir = os.path.join(data_dir, 'test')
 
